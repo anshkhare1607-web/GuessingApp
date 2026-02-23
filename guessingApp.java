@@ -1,14 +1,14 @@
 /**
 *Guessing App
-*UC3: Features/UC3-Hint Generation
+*UC4: Features/UC4-Error Handling and Validation
 *@author Developer
-*version 3.0
+*version 4.0
 */
 import java.util.Random;
 import java.util.Scanner;
 public class guessingApp{
 	
-	public static void main(String[] args){
+	public static void main(String[] args) throws InvalidInputException{
 		System.out.println("Welcome to Guessing App");
 		GameConfig gameConfig = new GameConfig();
 		gameConfig.showRules();
@@ -19,9 +19,20 @@ public class guessingApp{
 		//Game loop runs until player exhausts the maximum attempts.
 		while(attempts < gameConfig.getMaxAttempts()){
 			System.out.print("Enter your Guess : ");
-			int guess = sc.nextInt();
-			attempts++;
+			//int guess = ValidationService.validateInput(sc.nextLine());
+			String input = sc.nextLine();
+			int guess;
 			
+			try{
+				guess = ValidationService.validateInput(input);
+			}
+			catch(InvalidInputException e){
+					System.out.println(e.getMessage());
+					System.out.println();
+					continue;
+			}
+			
+			attempts++;
 			String result = GuessValidator.validateGuess(guess,gameConfig.getTargetNumber());
 			System.out.println(result);
 			

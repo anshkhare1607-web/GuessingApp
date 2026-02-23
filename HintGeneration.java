@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC3: Features/UC3-Hint Generation
+*UC4: Features/UC4-Error Handling and Validation
 *@author Developer
-*version 3.0
+*version 4.0
 */
 
 public class HintGeneration{

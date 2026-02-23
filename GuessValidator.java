@@ -1,11 +1,9 @@
 /**
 *Guessing App
-*UC3: Features/UC3-Hint Generation
+*UC4: Features/UC4-Error Handling and Validation
 *@author Developer
-*version 3.0
-*/
-
-public class GuessValidator{
+*version 4.0
+*/public class GuessValidator{
 	public static String validateGuess(int guess, int target){
 		if (guess == target){
 			return "CORRECT";

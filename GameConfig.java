@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC3: Features/UC3-Hint Generation
+*UC4: Features/UC4-Error Handling and Validation
 *@author Developer
-*version 3.0
+*version 4.0
 */
 import java.util.Random;
 
@@ -10,7 +10,7 @@ public class GameConfig{
 	private final int MIN =1 ;
 	private final int MAX = 100;
 	private final int MAX_ATTEMPTS = 100;
-	private final int MAX_HINTS = 100;
+	private final int MAX_HINTS = 7;
 	
 	int targetNumber;
 	
