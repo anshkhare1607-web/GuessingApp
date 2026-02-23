@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC5: Features/UC5-Game Result Storage
+*UC6: Features/UC6-Game Controller (Exit : Restart)
 *@author Developer
-*version 5.0
+*version 6.0
 */
 public class GuessValidator{
 	public static String validateGuess(int guess, int target){

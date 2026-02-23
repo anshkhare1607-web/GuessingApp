@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC5: Features/UC5-Game Result Storage
+*UC6: Features/UC6-Game Controller (Exit : Restart)
 *@author Developer
-*version 5.0
+*version 6.0
 */
 
 //Handles validation of user input before it is used in game logic.
