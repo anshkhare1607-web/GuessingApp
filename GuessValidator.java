@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC2: Features/UC2-User Guess Submission
+*UC3: Features/UC3-Hint Generation
 *@author Developer
-*version 2.0
+*version 3.0
 */
 
 public class GuessValidator{

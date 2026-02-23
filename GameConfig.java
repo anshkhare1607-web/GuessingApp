@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC1: Feature/UC1-Game Initialization
+*UC3: Features/UC3-Hint Generation
 *@author Developer
-*version 1.0
+*version 3.0
 */
 import java.util.Random;
 

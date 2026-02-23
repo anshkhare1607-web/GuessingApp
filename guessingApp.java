@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC1: Feature/UC1-Game Initialization
+*UC3: Features/UC3-Hint Generation
 *@author Developer
-*version 1.0
+*version 3.0
 */
 import java.util.Random;
 import java.util.Scanner;
@@ -29,6 +29,8 @@ public class guessingApp{
 			if("CORRECT".equals(result)){
 				break;
 			}
+			String hint = HintGeneration.generateHint(gameConfig.getTargetNumber(),attempts);
+			System.out.println(hint);
 		}
 	}
 	
