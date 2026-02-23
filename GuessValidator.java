@@ -1,9 +1,10 @@
 /**
 *Guessing App
-*UC4: Features/UC4-Error Handling and Validation
+*UC5: Features/UC5-Game Result Storage
 *@author Developer
-*version 4.0
-*/public class GuessValidator{
+*version 5.0
+*/
+public class GuessValidator{
 	public static String validateGuess(int guess, int target){
 		if (guess == target){
 			return "CORRECT";

@@ -1,16 +1,17 @@
 /**
 *Guessing App
-*UC4: Features/UC4-Error Handling and Validation
+*UC5: Features/UC5-Game Result Storage
 *@author Developer
-*version 4.0
+*version 5.0
 */
+
 import java.util.Random;
 
 public class GameConfig{
 	private final int MIN =1 ;
 	private final int MAX = 100;
-	private final int MAX_ATTEMPTS = 100;
-	private final int MAX_HINTS = 7;
+	private final int MAX_ATTEMPTS = 7;
+	private final int MAX_HINTS = 3;
 	
 	int targetNumber;
 	

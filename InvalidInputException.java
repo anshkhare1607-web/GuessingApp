@@ -1,8 +1,8 @@
 /**
 *Guessing App
-*UC4: Features/UC4-Error Handling and Validation
+*UC5: Features/UC5-Game Result Storage
 *@author Developer
-*version 4.0
+*version 5.0
 */
 
 //Allows the game to fail gracefully with a meaningful message.
