@@ -26,6 +26,6 @@ public class GameConfig{
 	public void showRules(){
 		System.out.println("Guess a number between "+MIN+" and "+MAX);
 		System.out.println("You have "+MAX_ATTEMPTS+" attempts.");
-		System.out.println("Hints will be provided after wrong guesses");
+		System.out.println("Hints will be provided after wrong guesses\n");
 	}
 }
